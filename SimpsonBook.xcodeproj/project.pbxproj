@@ -15,6 +15,8 @@
 		377769EF24BE354F00D7B7CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377769ED24BE354F00D7B7CE /* LaunchScreen.storyboard */; };
 		377769FA24BE355000D7B7CE /* SimpsonBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377769F924BE355000D7B7CE /* SimpsonBookTests.swift */; };
 		37776A0524BE355000D7B7CE /* SimpsonBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37776A0424BE355000D7B7CE /* SimpsonBookUITests.swift */; };
+		37776A1324BE363300D7B7CE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37776A1224BE363300D7B7CE /* DetailViewController.swift */; };
+		37776A1524BE408A00D7B7CE /* SimpsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37776A1424BE408A00D7B7CE /* SimpsonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		37776A0024BE355000D7B7CE /* SimpsonBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37776A0424BE355000D7B7CE /* SimpsonBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonBookUITests.swift; sourceTree = "<group>"; };
 		37776A0624BE355000D7B7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37776A1224BE363300D7B7CE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		37776A1424BE408A00D7B7CE /* SimpsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 				377769E224BE354F00D7B7CE /* AppDelegate.swift */,
 				377769E424BE354F00D7B7CE /* SceneDelegate.swift */,
 				377769E624BE354F00D7B7CE /* ViewController.swift */,
+				37776A1224BE363300D7B7CE /* DetailViewController.swift */,
 				377769E824BE354F00D7B7CE /* Main.storyboard */,
 				377769EB24BE354F00D7B7CE /* Assets.xcassets */,
+				37776A1424BE408A00D7B7CE /* SimpsonClass.swift */,
 				377769ED24BE354F00D7B7CE /* LaunchScreen.storyboard */,
 				377769F024BE354F00D7B7CE /* Info.plist */,
 			);
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37776A1524BE408A00D7B7CE /* SimpsonClass.swift in Sources */,
 				377769E724BE354F00D7B7CE /* ViewController.swift in Sources */,
 				377769E324BE354F00D7B7CE /* AppDelegate.swift in Sources */,
 				377769E524BE354F00D7B7CE /* SceneDelegate.swift in Sources */,
+				37776A1324BE363300D7B7CE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
